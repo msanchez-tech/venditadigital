@@ -3,10 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Marketing Agency</title>
+  <title>VenditaDigital | Marketing & Brand Scaling</title>
+
+  <!-- SEO description -->
+  <meta name="description" content="We are a full-service marketing and brand scaling agency committed to exposure, storytelling, and ROI.">
+
+  <!-- Keywords (optional but helpful) -->
+  <meta name="keywords" content="marketing agency, brand scaling, social media campaigns, cinematography, photography">
+
+  <!-- Open Graph (for social sharing) -->
+  <meta property="og:title" content="VenditaDigital — Your success is our mission">
+  <meta property="og:description" content="Full-service marketing & brand scaling agency: websites, viral content, cinematography, and more.">
+  <meta property="og:image" content="https://venditadigital.com/og-image.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://venditadigital.com/">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Google Analytics (replace GA4_ID with your property ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA4_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA4_ID');
+  </script>
 </head>
 <body>
   <h1>Your success is our mission</h1>
   <p>Welcome to our full-service marketing and brand scaling agency.</p>
+
+  <!-- Contact form (using Formspree — replace FORMSPREE_ID) -->
+  <form action="https://formspree.io/f/FORMSPREE_ID" method="POST">
+    <label>
+      Name:
+      <input type="text" name="name" required>
+    </label>
+    <label>
+      Email:
+      <input type="email" name="_replyto" required>
+    </label>
+    <label>
+      Message:
+      <textarea name="message" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+
+  <!-- Direct contact info -->
+  <p>Email: <a href="mailto:msanchez@vendita.ai">msanchez@vendita.ai</a></p>
+  <p>Phone: <a href="tel:YOUR_PHONE">YOUR_PHONE</a></p>
 </body>
 </html>
